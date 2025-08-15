@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <header>
+      <h1>⚙️ 設定</h1>
+    </header>
+    <main class="container">
+      <h2>通知タイミング</h2>
+      <div class="option">
+        1 ~ 60 minの間で設定できます。<br>
+        <label for="timing">
+          <input type="text" id="timing" value="3"> min
+        </label>
+      </div>
+      <h2>通知するスケジュール</h2>
+      <div class="option">
+        通知するスケジュールを選択できます。<br>
+      </div>
+      <div class="save-settings">
+        <button id="save">設定を保存</button>
+      </div>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

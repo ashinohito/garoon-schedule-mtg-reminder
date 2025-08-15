@@ -1,0 +1,25 @@
+html {
+  min-height: 5em;
+  min-width: 20em;
+  background: #e4ead5;
+}
+body {
+  width: auto;
+}
+header {
+  height: 45px;
+  border-bottom: #e6d5eb 6px solid;
+}
+.container {
+  padding: 1px;
+}
+.option {
+  padding-bottom: 10px;
+  font-size: 10pt;
+}
+input {
+  width: 3em;
+}
+.save-settings {
+  text-align: center;
+}

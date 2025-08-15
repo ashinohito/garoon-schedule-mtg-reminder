@@ -1,0 +1,10 @@
+{
+  "name": "garoon-schedule-mtg-reminder",
+  "description": "Garoonスケジュールからmtgの予定だけをpickupして通知します",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": "images/hello-extensions.png"
+  }
+}
